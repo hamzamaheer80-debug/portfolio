@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Space Grotesk, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d160b"/><stop offset="1" stop-color="#090909"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8d0a3"/><stop offset="1" stop-color="#b8860b"/></linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <!-- balance card -->
+  <rect x="90" y="90" width="500" height="250" rx="28" fill="#c5a059"/>
+  <text x="130" y="145" fill="#000" fill-opacity="0.6" font-size="16" font-weight="700" letter-spacing="4">TOTAL BALANCE</text>
+  <text x="130" y="220" fill="#000" font-size="64" font-weight="500">Rs 1,250,400</text>
+  <text x="130" y="300" fill="#000" fill-opacity="0.65" font-size="20" letter-spacing="3">ACC •••• 0327</text>
+  <g transform="translate(520 140)"><circle r="22" fill="#000" fill-opacity="0.15"/><circle cx="26" r="22" fill="#000" fill-opacity="0.25"/></g>
+  <!-- chart card -->
+  <rect x="90" y="370" width="500" height="260" rx="28" fill="#141210" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="130" y="418" fill="#888" font-size="15" font-weight="600" letter-spacing="3">MONTHLY FLOW</text>
+  <g fill="url(#bar)">
+    <rect x="140" y="510" width="40" height="90" rx="6"/><rect x="205" y="470" width="40" height="130" rx="6"/>
+    <rect x="270" y="530" width="40" height="70" rx="6"/><rect x="335" y="450" width="40" height="150" rx="6"/>
+    <rect x="400" y="490" width="40" height="110" rx="6"/><rect x="465" y="440" width="40" height="160" rx="6" fill="#FF6B50"/>
+  </g>
+  <!-- ledger table -->
+  <rect x="630" y="90" width="560" height="540" rx="28" fill="#121110" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="670" y="145" fill="#ffffff" font-size="26" font-weight="500">Ledger Entries</text>
+  <text x="1150" y="145" fill="#c5a059" font-size="14" font-weight="600" letter-spacing="3" text-anchor="end">BALANCED ✓</text>
+  <g font-size="14" fill="#666" letter-spacing="2" font-weight="600">
+    <text x="670" y="195">TRANSACTION</text><text x="1010" y="195" text-anchor="end">DEBIT</text><text x="1150" y="195" text-anchor="end">CREDIT</text>
+  </g>
+  <line x1="670" y1="212" x2="1150" y2="212" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g font-size="19">
+    <text x="670" y="257" fill="#EBEBEB">Salary deposit</text><text x="1010" y="257" fill="#555" text-anchor="end">—</text><text x="1150" y="257" fill="#c5a059" text-anchor="end">+85,000</text>
+    <text x="670" y="317" fill="#EBEBEB">Transfer to savings</text><text x="1010" y="317" fill="#FF6B50" text-anchor="end">−20,000</text><text x="1150" y="317" fill="#555" text-anchor="end">—</text>
+    <text x="670" y="377" fill="#EBEBEB">Utility bill</text><text x="1010" y="377" fill="#FF6B50" text-anchor="end">−6,450</text><text x="1150" y="377" fill="#555" text-anchor="end">—</text>
+    <text x="670" y="437" fill="#EBEBEB">Client payment</text><text x="1010" y="437" fill="#555" text-anchor="end">—</text><text x="1150" y="437" fill="#c5a059" text-anchor="end">+42,500</text>
+    <text x="670" y="497" fill="#EBEBEB">ATM withdrawal</text><text x="1010" y="497" fill="#FF6B50" text-anchor="end">−10,000</text><text x="1150" y="497" fill="#555" text-anchor="end">—</text>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.05"><line x1="670" y1="282" x2="1150" y2="282"/><line x1="670" y1="342" x2="1150" y2="342"/><line x1="670" y1="402" x2="1150" y2="402"/><line x1="670" y1="462" x2="1150" y2="462"/><line x1="670" y1="522" x2="1150" y2="522"/></g>
+  <text x="670" y="585" fill="#888" font-size="15" letter-spacing="2" font-weight="600">NET</text>
+  <text x="1150" y="585" fill="#ffffff" font-size="24" text-anchor="end">+91,050</text>
+</svg>

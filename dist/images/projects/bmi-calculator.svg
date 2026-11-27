@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Space Grotesk, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17140f"/><stop offset="1" stop-color="#090909"/></linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.35" r="0.6"><stop offset="0" stop-color="#c5a059" stop-opacity="0.22"/><stop offset="1" stop-color="#c5a059" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 120H1280M0 240H1280M0 360H1280M0 480H1280M0 600H1280M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720"/>
+  </g>
+  <!-- form card -->
+  <rect x="110" y="110" width="460" height="500" rx="28" fill="#141414" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="150" y="175" fill="#c5a059" font-size="16" letter-spacing="4" font-weight="600">BMI CALCULATOR</text>
+  <text x="150" y="222" fill="#ffffff" font-size="34" font-weight="500">Check your BMI</text>
+  <text x="150" y="285" fill="#888888" font-size="15" letter-spacing="2">HEIGHT (CM)</text>
+  <rect x="150" y="300" width="380" height="58" rx="12" fill="#0c0c0c" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="172" y="337" fill="#EBEBEB" font-size="22">175</text>
+  <text x="150" y="400" fill="#888888" font-size="15" letter-spacing="2">WEIGHT (KG)</text>
+  <rect x="150" y="415" width="380" height="58" rx="12" fill="#0c0c0c" stroke="#c5a059" stroke-opacity="0.6"/>
+  <text x="172" y="452" fill="#EBEBEB" font-size="22">68</text>
+  <rect x="150" y="505" width="380" height="62" rx="12" fill="#c5a059"/>
+  <text x="340" y="544" fill="#000000" font-size="18" font-weight="700" letter-spacing="4" text-anchor="middle">CALCULATE</text>
+  <!-- result gauge -->
+  <g transform="translate(905 400)">
+    <path d="M-230 0 A230 230 0 0 1 -162.6 -162.6" fill="none" stroke="#e8d0a3" stroke-width="30"/>
+    <path d="M-158 -167 A230 230 0 0 1 60 -222" fill="none" stroke="#c5a059" stroke-width="30"/>
+    <path d="M66 -220 A230 230 0 0 1 175 -149" fill="none" stroke="#FF8F5A" stroke-width="30"/>
+    <path d="M180 -143 A230 230 0 0 1 230 0" fill="none" stroke="#FF6B50" stroke-width="30"/>
+    <line x1="0" y1="0" x2="-48" y2="-180" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <circle r="18" fill="#ffffff"/>
+    <text x="0" y="80" fill="#ffffff" font-size="84" font-weight="300" text-anchor="middle">22.2</text>
+    <text x="0" y="122" fill="#c5a059" font-size="20" font-weight="600" letter-spacing="6" text-anchor="middle">NORMAL WEIGHT</text>
+  </g>
+  <g font-size="13" fill="#888888" letter-spacing="2" font-weight="600">
+    <text x="690" y="640">UNDER</text><text x="830" y="640">NORMAL</text><text x="970" y="640">OVER</text><text x="1090" y="640">OBESE</text>
+  </g>
+</svg>
